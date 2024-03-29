@@ -22,9 +22,9 @@ pip install -r requirements.txt
 ```
 
 ### 3. Prepare the data
-Please contact with The Cancer Image Archive (TCIA) team with respect to download and use the dataset.
+Please contact The Cancer Image Archive (TCIA) team with respect to downloading and using the dataset.
 
-For preparation the patients' data before feeding to the network, please refer to `config/pts.yaml` and `config/ldct_loader.py`
+For the preparation of the patient's data before feeding to the network, please refer to `config/pts.yaml` and `config/ldct_loader.py`
 
 
 ## Train and Evaluate
@@ -32,6 +32,8 @@ For preparation the patients' data before feeding to the network, please refer t
 ### 1. Train
 
 `python main.py --fed_name=fedfdd`
+
+If you want to do fine-grained experiments, please run `python server/fedfdd.py` with specific args.
 
 ### 2. Evaluate
 
