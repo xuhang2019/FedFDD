@@ -49,10 +49,8 @@ If you find this repo useful, please cite our paper.
 chen2024fedfdd,
 title={Fed{FDD}: Federated Learning with Frequency Domain Decomposition for Low-Dose {CT} Denoising},
 author={Xuhang Chen and Zeju Li and Zikun Xu and kaijie Xu and Cheng Ouyang and Chen Qin},
-booktitle={Submitted to Medical Imaging with Deep Learning},
+journal={Medical Imaging with Deep Learning (MIDL)},
 year={2024},
-url={https://openreview.net/forum?id=Zg0mfl10o2},
-note={under review}
 }
 ```
 
